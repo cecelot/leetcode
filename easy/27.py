@@ -11,7 +11,6 @@ class Solution(object):
                 nums[-1] = checkNum
             else:
                 startIndex += 1
-        print(sorted(nums))
         return startIndex
 
 
